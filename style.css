@@ -1,0 +1,149 @@
+/*-----------------------------------------------------------------*/
+/*PAGE PROGRAM   SETUP*/
+/*-----------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*-----------------------------------------------------------------*/
+/*HEADINGS*/
+/*-----------------------------------------------------------------*/
+
+h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 200%;
+    font-weight: 500;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+/*-----------------------------------------------------------------*/
+/*BUTTONS*/
+/*-----------------------------------------------------------------*/
+
+.btn:link, 
+.btn:visited {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 200px;
+    font-weight: 500;
+    transition: background-color 0.5s, border 0.5s, color 0.5s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #ffffff;
+    border: 1.5px solid #ffffff;
+    color: #000000;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1.5px solid #ffffff;
+    color: #ffffff;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background-color: #ddd;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    background-color: #ffffff;
+}
+
+-----
+.btn-full:hover,
+.btn-full:active {
+    background-color: #ffffff;
+    border: 1.5px solid #ffffff;
+    color: #000000;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1.5px solid #ffffff;
+    color: #000000;
+}
+
+
+/*-----------------------------------------------------------------*/
+/*HEADER*/
+/*-----------------------------------------------------------------*/
+header {
+    background-image: url(images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*-----------------------------------------------------------------*/
+/*NAVIGATION BAR*/
+/*-----------------------------------------------------------------*/
+.logo {
+    height: 25px;
+    width: auto;
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.main-nav {
+    float: right;
+    
+    list-style: none;
+    margin-top: 35px;
+    margin-right: 40px;
+    letter-spacing: 1px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding: 2px 0;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 90%;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 1px solid #ffffff;
+}
